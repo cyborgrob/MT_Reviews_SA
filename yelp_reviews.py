@@ -1,7 +1,7 @@
 import requests
 
 # Define your API credentials
-API_KEY = 'ie0Pg2QoJOxmvFhQjZU_qVq90OfahbgVapcJuWyvVl4v1WlV9ec0jnq2WLeuKb8lCEiXFa4OXtzwvw6FssQQ3g4zw8YvkKv_GgHqBG4_eHVXZh55rfdnbj6I66r0ZXYx'
+API_KEY = 'API_KEY'
 
 # Define the Yelp Business ID of the business you want to retrieve reviews for
 business_id = 'madtree-brewing-cincinnati-3'
