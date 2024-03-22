@@ -17,6 +17,10 @@ def convert_outscraper_file(csv_filepath):
     df_selected.to_csv(output_path, index=False)
 
 
+
+# How to scrape reviews from Yelp using regex. Can combine with:
+# https://stackoverflow.com/questions/69826227/trying-to-use-beautifulsoup-to-scrape-yelp-ratings-and-export-to-csv-the-csv-th
+# to scrape from each page
 def scrape_yelp(url):
     """
     Scrapes customer reviews (doesn't include business reply reviews) from a given yelp page. Effective as of March '24.
@@ -29,6 +33,3 @@ def scrape_yelp(url):
     results = soup.find_all('p', {'class': regex})
     reviews = [result.text for result in results]
     return reviews
-
-print(scrape_yelp('https://www.yelp.com/biz/madtree-brewing-cincinnati-3'))
-
