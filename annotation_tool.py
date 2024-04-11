@@ -48,6 +48,11 @@ class ABSAAnnotationApp:
         self.neu_button = tk.Button(self.master, text="Neutral", command=lambda: self.annotate_aspect("neutral"))
         self.neu_button.pack(side="left", padx=5)
 
+        # Modifier key bindings
+        self.master.bind("<Control-Key-1>", lambda event: self.annotate_aspect("positive"))
+        self.master.bind("<Control-Key-2>", lambda event: self.annotate_aspect("negative"))
+        self.master.bind("<Control-Key-3>", lambda event: self.annotate_aspect("neutral"))
+
         # Next sentence button
         self.next_button = tk.Button(self.master, text="Next", command=self.save_and_next)
         self.next_button.pack(side="right", padx=10)
@@ -102,8 +107,7 @@ class ABSAAnnotationApp:
         self.aspect_display.configure(state="disabled")  # Disable widget to prevent user editing
 
     def save_and_next(self):
-        if self.aspects:
-            self.df.at[self.current_index, "aspectTerms"] = str(self.aspects)
+        self.df.at[self.current_index, "aspectTerms"] = str(self.aspects) if self.aspects else "[]"
         self.current_index += 1
         self.save_progress()  # Save progress to CSV
         self.load_sentence()  # Load next sentence
