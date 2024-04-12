@@ -26,6 +26,7 @@ def train_val_test_split(file_path, train=0.7, random_state=42):
     validation_data, test_data = train_test_split(remaining_data, test_size=0.5, random_state=random_state)
 
     # Save these to csv files
-    train_data.to_csv('train_data.csv', index=False)
-    validation_data.to_csv('validation_data.csv', index=False)
-    test_data.to_csv('test_data.csv', index=False)
+    train_data.to_csv(r'datasets\train_data.csv', index=False)
+    validation_data.to_csv(r'datasets\validation_data.csv', index=False)
+    test_data.to_csv(r'datasets\test_data.csv', index=False)
+
