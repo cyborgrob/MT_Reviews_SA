@@ -134,17 +134,17 @@ Test F1:  0.8236607142857143
 Here are some graphs to better visualize the differences (the bar graph has only test results):
 ![1](https://github.com/cyborgrob/MT_Reviews_SA/assets/137374823/f5f637c8-1ad9-4f1c-8ae3-7315cd336039)
 
-![1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4999980-fc1b-429e-b94d-ef1b66852e22/eeed368c-35fc-4eab-8f57-be29e7158b8a/1.png)
+![2](https://github.com/cyborgrob/MT_Reviews_SA/assets/137374823/5b29d1f0-f880-4d35-a311-6559991d493f)
 
 **Visualizations: NOTE - these visualizations were originally created in the EDA step referenced in 2. Data - Data Preparation, using various rules-based approaches, as well the data from the PyABSA model. As noted, those tracks were abandoned in favor using the InstructABSA model. However, the visualizations are still useful as a indication of the types of analysis that could be done. Work on this project was halted after fine-tuning the InstructABSA model, but it would be a relatively simple task to use the model to run inference on the data and generate results that could then be visualized using similar graphs/charts as to what follows.**
 
-![1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4999980-fc1b-429e-b94d-ef1b66852e22/e59e134a-a163-4d36-874c-de9e89a9280b/1.png)
+![3](https://github.com/cyborgrob/MT_Reviews_SA/assets/137374823/91f3017a-a871-40c0-ab20-a729785dde08)
 
-![1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4999980-fc1b-429e-b94d-ef1b66852e22/0b414b45-a633-4ba4-9a17-913c9121cffb/1.png)
+![4](https://github.com/cyborgrob/MT_Reviews_SA/assets/137374823/01262343-3bd3-485c-a891-9cdca4d9477b)
 
-![1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4999980-fc1b-429e-b94d-ef1b66852e22/64af0153-8fc4-4f6d-98d7-61ec661db0f3/1.png)
+![5](https://github.com/cyborgrob/MT_Reviews_SA/assets/137374823/f7cebe6c-23ad-4433-934a-6c7cd92a4e41)
 
-![1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4999980-fc1b-429e-b94d-ef1b66852e22/c8ea4f71-00d5-401b-8ad3-3460cfe035f0/1.png)
+![6](https://github.com/cyborgrob/MT_Reviews_SA/assets/137374823/859ce7c3-a996-4766-8a29-d106cb86384f)
 
 And so on…
 
@@ -156,7 +156,7 @@ And so on…
 
 And here’s a screenshot of the demo in use on a simple review sentence:
 
-![1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4999980-fc1b-429e-b94d-ef1b66852e22/f3936ced-312d-423c-9ce9-b5bedc39079b/1.png)
+![7](https://github.com/cyborgrob/MT_Reviews_SA/assets/137374823/7ad71e59-cc1a-415d-8f4b-29403d1a4f1a)
 
 ## 5. Challenges and Learnings
 
