@@ -132,8 +132,7 @@ Test F1:  0.8236607142857143
 ```
 
 Here are some graphs to better visualize the differences (the bar graph has only test results):
-
-![1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4999980-fc1b-429e-b94d-ef1b66852e22/7b4d548f-1d90-4fcd-a664-529f96f3a944/1.png)
+![1](https://github.com/cyborgrob/MT_Reviews_SA/assets/137374823/f5f637c8-1ad9-4f1c-8ae3-7315cd336039)
 
 ![1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4999980-fc1b-429e-b94d-ef1b66852e22/eeed368c-35fc-4eab-8f57-be29e7158b8a/1.png)
 
